@@ -1,0 +1,17 @@
+##tomcat##
+server:
+  tomcat:
+    uri-encoding: utf-8
+  jsp-servlet:
+    init-parameters:
+      development: true
+  port: 8084
+  context-path: /producerDemo
+  
+ ##rabbitmq##
+spring:
+  rabbitmq:
+    host: 127.0.0.1
+    port: 5672
+    password: guest
+    username: guest
